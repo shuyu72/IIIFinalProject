@@ -1,0 +1,338 @@
+body{
+    min-width: 100%;
+}
+.mainImg{
+    min-width:100%;
+    /*opacity: 0.5;*/
+}
+.navul{
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    background-color: #333333;
+    /*color:aliceblue;*/
+    overflow: hidden;
+    position: fixed;
+    /*position:absolute; --導航列不固定在頂端*/
+    top:0px;
+    width:100%;
+}
+.navItem1{
+    font-family: "微軟正黑體";
+    font-size:18px;
+    font-weight: bold;
+    color:azure;
+    float:left;
+    padding: 10px;
+    margin: 0px;
+    opacity: 1.0;
+}
+.navItem1:hover{
+    background-color: rgb(155, 248, 6);
+    color:black;
+}
+.nav_active{
+    font-family: "微軟正黑體";
+    font-size:18px;
+    font-weight: bold;
+    color:azure;
+    float:left;
+    padding: 10px;
+    margin: 0px;
+    background-color: #EE2299;
+}
+.navItem2{
+    font-family: "微軟正黑體";
+    font-size:18px;
+    font-weight: bold;
+    color:azure;
+    float:right;
+    padding: 10px;
+    margin: 0px;
+}
+.navItem2:hover{
+    background-color: rgb(155, 248, 6);
+    color: black;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.img_title{
+    position: absolute;
+    font-size: 70px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.img_additional{
+    position: absolute;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background_img{
+    min-width: 100%;
+}
+
+.imgpro1{
+    width:200px;
+}
+/*.fruit_div {position: absolute;}*/
+
+.fruit_div img {
+  float:left;
+  position:absolute;
+  top:80%;
+  left: 7%;
+  width:27%;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.fruit_div img:nth-of-type(2):hover{
+    opacity:0; 
+  }
+  
+/*.fruit_div2 {position: absolute;}*/
+.fruit_div2 img {
+    float:left;
+    position:absolute;
+    top:80%;
+    left: 37%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div2 img:nth-of-type(2):hover{
+    opacity:0; 
+  }
+  
+  .fruit_div3 img {
+    float:left;
+    position:absolute;
+    top:80%;
+    left: 67%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div3 img:nth-of-type(2):hover{
+    opacity:0; 
+  }
+
+  .fruit_div4 img {
+    float:left;
+    position:absolute;
+    top:140%;
+    left: 7%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div4 img:nth-of-type(2):hover{
+    opacity:0; 
+  }
+
+  .fruit_div5 img {
+    float:left;
+    position:absolute;
+    top:140%;
+    left: 37%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div5 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div6 img {
+    float:left;
+    position:absolute;
+    top:140%;
+    left: 67%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div6 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div7 img {
+    float:left;
+    position:absolute;
+    top:200%;
+    left: 7%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div7 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+  .fruit_div8 img {
+    float:left;
+    position:absolute;
+    top:200%;
+    left: 37%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div8 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+  .fruit_div9 img {
+    float:left;
+    position:absolute;
+    top:200%;
+    left: 67%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div9 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div10 img {
+    float:left;
+    position:absolute;
+    top:260%;
+    left: 7%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div10 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div11 img {
+    float:left;
+    position:absolute;
+    top:260%;
+    left: 37%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div11 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+  .fruit_div12 img {
+    float:left;
+    position:absolute;
+    top:260%;
+    left: 67%;
+    width:27%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div12 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div13 img {
+    float:left;
+    position:absolute;
+    top:320%;
+    left: 7%;
+    width:27%;
+    border-radius: 25px;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div13 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+  
+  .fruit_div14 img {
+    float:left;
+    position:absolute;
+    top:320%;
+    left: 37%;
+    width:27%;
+    border-radius: 25px;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div14 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+
+  .fruit_div15 img {
+    float:left;
+    position:absolute;
+    top:320%;
+    left: 67%;
+    width:27%;
+    border-radius: 25px;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fruit_div15 img:nth-of-type(2):hover{
+    opacity:0; 
+  }  
+  input{
+    background:transparent;		/* 輸入框背景透明 */
+    border:none;			/* 無邊框 */
+    columns: #000000;;
+    font-size:45px;
+    font-weight:bold;
+    font-family:黑體;
+}
