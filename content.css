@@ -1,0 +1,41 @@
+.apple_img img {
+    top:10%;
+    left: 5%;
+    width:50%;
+  }
+  .description{
+    width:45%;
+    height:120%;
+    position:absolute;
+    top:5%;
+    left: 50%;
+    float: left;
+    padding-top: 0%;
+    padding:10px;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+  }
+  .text{
+      font-family: "微軟正黑體";
+      font-size: 20px;
+      padding: 15px;
+      font-weight: bold;
+      color: #00AA00;
+  }
+  h1{
+    font-family: "微軟正黑體";
+    font-size: 35px;
+    padding: 15px;
+    font-weight: bold;
+    color: #00AA00;
+  }
+  .frame{
+      padding-left: 3%;
+      padding-top: 1%;
+  }
+
+
+.single-item{
+    padding-left: 3%;
+    padding-top: 3%;
+}
